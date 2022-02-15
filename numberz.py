@@ -7,6 +7,7 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 os.chdir(dir_path)
 remote_node = "http://localhost:18081/json_rpc"
 def getBlockheight():
+    global remote_node
     # initialisation, rpc_user and rpc_password are set as flags in the cli command
     rpc_connection = AuthServiceProxy(service_url=remote_node)
 
