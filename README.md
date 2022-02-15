@@ -1,4 +1,4 @@
-piip install python-monerorpc
+pip install python-monerorpc
 
 crontab -e 
 
