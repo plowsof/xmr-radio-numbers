@@ -5,6 +5,7 @@ from monerorpc.authproxy import AuthServiceProxy, JSONRPCException
 import datetime
 dir_path = os.path.dirname(os.path.realpath(__file__))
 os.chdir(dir_path)
+#http://node.melo.tools:18081/jsonrpc
 remote_node = "http://localhost:18081/json_rpc"
 def getBlockheight():
     global remote_node
